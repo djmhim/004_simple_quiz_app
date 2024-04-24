@@ -32,7 +32,8 @@ function Quiz() {
   };
 
   return (
-    <div className="container mx-auto bg-slate-800 text-white p-10 m-10 rounded">
+    <div className="w-screen h-screen bg-slate-800">
+    <div className="container mx-auto bg-slate-800 text-white p-10 rounded">
       <h1 className="text-5xl mb-10 text-center underline font-bold">Quiz by Mukesh</h1>
       {showScore ? (
         <div className="text-center">
@@ -64,7 +65,7 @@ function Quiz() {
           </button>
         </form>
       )}
-    </div>
+    </div></div>
   );
 }
 
